@@ -19,7 +19,6 @@ import Vue from 'vue';
 
 Vue.config.debug = process.env.NODE_ENV !== 'production';
 
-
 /* ============
  * Axios
  * ============

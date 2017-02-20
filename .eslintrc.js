@@ -4,7 +4,7 @@ module.exports = {
   parserOptions: {
     sourceType: 'module'
   },
-  extends: 'airbnb-base',
+  // extends: 'airbnb-base',
   // required to lint *.vue files
   plugins: [
     'html'
@@ -32,10 +32,11 @@ module.exports = {
     'import/imports-first': 0,
 
     // don't require .vue extension when importing
-    'import/extensions': ['error', 'always', {
-      'js': 'never',
-      'vue': 'never'
-    }],
+    // 'import/extensions': ['error', 'always', {
+    //   'js': 'never',
+    //   'vue': 'never'
+    // }],
+
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
   }
