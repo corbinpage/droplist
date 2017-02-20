@@ -20,7 +20,7 @@ export default [
 
     // If the user needs to be authenticated to view this page
     meta: {
-      auth: true,
+      guest: true,
     },
   },
 
@@ -58,12 +58,10 @@ export default [
     meta: {
       guest: true,
     },
-  },
-  {
+  }, {
     path: '/',
     redirect: '/home',
-  },
-  {
+  }, {
     path: '/*',
     redirect: '/home',
   },
